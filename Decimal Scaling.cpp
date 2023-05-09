@@ -1,0 +1,6 @@
+data(sonar)
+def=par(mfrow=c(2,1))
+plot(sonar[,2])
+dssonar=decscale(sonar)
+plot(dssonar[,2])
+par(def)
